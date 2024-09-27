@@ -1,0 +1,11 @@
+const student = {
+    name:"yusuf",
+    age : 25,
+    percentage : 45.7,
+
+};
+student ["name"]= "yusuf iqbal";
+student["age"]= student["age"]+35 ;
+student ["age"]= 55;
+
+console.log(student.age["name"]);
