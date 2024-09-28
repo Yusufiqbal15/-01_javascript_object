@@ -8,4 +8,4 @@ student ["name"]= "yusuf iqbal";
 student["age"]= student["age"]+35 ;
 student ["age"]= 55;
 
-console.log(student.age["name"]);
+console.log(student.age["name"], student.age.length);
